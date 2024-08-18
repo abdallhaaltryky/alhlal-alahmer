@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    background-color: red;
+    text-align: center;
+    color: #b20000; /* اللون الأحمر المميز للهلال الأحمر */
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.news-item img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 15px;
+}
+
+.news-content h3 {
+    margin-top: 0;
+    color: #b20000;
+}
+
+.news-content p {
+    margin: 10px 0;
+}
+
+.news-content a {
+    text-decoration: none;
+    color: #b20000;
+    font-weight: bold;
+}
